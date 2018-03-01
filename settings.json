@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "displayWrapCodes": "true",
+    "defaultWrapCode": "169"
+  },
+  "map": {
+    "default": {
+      "CallCenter__c": "platformPhoneNumber",
+      "activityOrigin__c": "'ipSCAPE'",
+      "activity__c": "activityId",
+      "phone__c": "customerPhoneNumber",
+      "ipSCAPE_callStart__c": "callStartedDate",
+      "ipSCAPE_callEnd__c": "callEndedDate"
+    },
+    "inbound": {
+      "ipSCAPE_campaign__c": "campaignTitle",
+      "ipSCAPE_queueTime__c": "timeInQueue",
+      "ipSCAPE_bookingId__c": "bookingId"
+    },
+    "outbound": {
+      "ipSCAPE_campaign__c": "campaignTitle"
+    },
+    "transfer": {
+      "ipSCAPE_campaign__c": "campaignTitle",
+      "ipSCAPE_queueTime__c": "timeInQueue"
+    }
+  }
+}
